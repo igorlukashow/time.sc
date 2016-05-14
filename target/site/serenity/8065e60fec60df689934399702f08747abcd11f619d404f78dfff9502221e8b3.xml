@@ -1,0 +1,39 @@
+<acceptance-test-run title="Edit name" name="edit_name" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18351" timestamp="2016-05-14T16:07:42.802+07:00">
+  <user-story id="time.sc.features.uitests.EditUserProfileTest" name="Edit user profile test" path="time.sc.features.uitests"/>
+  <tags>
+    <tag name="Uitests" type="feature"/>
+    <tag name="Uitests/Edit user profile test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8805">
+    <screenshots>
+      <screenshot image="c5a41ae985f5db2e425288f928406153.png"/>
+    </screenshots>
+    <description>Open signin page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1785">
+    <screenshots>
+      <screenshot image="a69d894f25909d6114f2d57e26fe3bf0.png"/>
+      <screenshot image="dd7c7dba357edb7fdae98f08799a0ae3.png"/>
+    </screenshots>
+    <description>Enter email: &lt;span class=&apos;step-parameter&apos;&gt;igor.lukashow@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="442">
+    <screenshots>
+      <screenshot image="8f3f362001a6becd769e440f1ed098f4.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;england89&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="463">
+    <screenshots>
+      <screenshot image="af3505f6d4f50031e14bee1007a5024b.png"/>
+    </screenshots>
+    <description>Signin</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6664">
+    <screenshots>
+      <screenshot image="28a538f05bb8e00550baa1b189ca844b.png"/>
+      <screenshot image="6d0369f88a9178c24db86ab72cb6d605.png"/>
+    </screenshots>
+    <description>Open profile edit page</description>
+  </test-step>
+</acceptance-test-run>

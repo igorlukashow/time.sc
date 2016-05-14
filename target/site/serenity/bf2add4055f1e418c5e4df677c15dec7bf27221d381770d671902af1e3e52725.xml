@@ -1,0 +1,58 @@
+<acceptance-test-run title="Edit lastname" name="edit_lastname" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23602" timestamp="2016-05-14T17:34:19.008+07:00">
+  <user-story id="time.sc.features.uitests.EditUserProfileTest" name="Edit user profile test" path="time.sc.features.uitests"/>
+  <tags>
+    <tag name="Uitests" type="feature"/>
+    <tag name="Uitests/Edit user profile test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8451">
+    <screenshots>
+      <screenshot image="1b7683dd2aaf22bf42d15a2fbe98fff9.png"/>
+    </screenshots>
+    <description>Open signin page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1746">
+    <screenshots>
+      <screenshot image="6d68a3213590d6ff94d528f63116bf96.png"/>
+      <screenshot image="050c89a519ae725e9fcc6dd1c31d8ad5.png"/>
+    </screenshots>
+    <description>Enter email: &lt;span class=&apos;step-parameter&apos;&gt;igor.lukashow@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="552">
+    <screenshots>
+      <screenshot image="d27deb849263a0012287617b283dbe94.png"/>
+      <screenshot image="de5af2cccf6d0149f6d9b63a74999d39.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;zp130k&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="478">
+    <screenshots>
+      <screenshot image="47b2c8bb535bc445d82f0a2bc66580f3.png"/>
+    </screenshots>
+    <description>Signin</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8584">
+    <screenshots>
+      <screenshot image="3d4bbfa494943d14378ccc7a075e8b4f.png"/>
+      <screenshot image="236c2fe8dc323b60fc3a5f855afa7ec1.png"/>
+    </screenshots>
+    <description>Open profile edit page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="645">
+    <screenshots>
+      <screenshot image="236c2fe8dc323b60fc3a5f855afa7ec1.png"/>
+    </screenshots>
+    <description>Type lastname: &lt;span class=&apos;step-parameter&apos;&gt;Ivanov&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1002">
+    <screenshots>
+      <screenshot image="4b3caae658483106aedc9a990b1bdaa7.png"/>
+    </screenshots>
+    <description>Save</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="722">
+    <screenshots>
+      <screenshot image="61881ade3204deee1efd8346c6848ace.png"/>
+    </screenshots>
+    <description>Assert that alert is visible</description>
+  </test-step>
+</acceptance-test-run>

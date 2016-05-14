@@ -1,0 +1,60 @@
+<acceptance-test-run title="Edit city" name="edit_city" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24342" timestamp="2016-05-14T17:34:42.870+07:00">
+  <user-story id="time.sc.features.uitests.EditUserProfileTest" name="Edit user profile test" path="time.sc.features.uitests"/>
+  <tags>
+    <tag name="Uitests" type="feature"/>
+    <tag name="Uitests/Edit user profile test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7056">
+    <screenshots>
+      <screenshot image="61881ade3204deee1efd8346c6848ace.png"/>
+      <screenshot image="e73f7070d6a9fc09bbaef3db512f18e2.png"/>
+    </screenshots>
+    <description>Open signin page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="844">
+    <screenshots>
+      <screenshot image="c3fa0cb40d8f4ab8de025169ad13a86c.png"/>
+    </screenshots>
+    <description>Enter email: &lt;span class=&apos;step-parameter&apos;&gt;igor.lukashow@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="576">
+    <screenshots>
+      <screenshot image="ee26cdc759ef538a7c0eea236ce83f06.png"/>
+      <screenshot image="9f6799f95ef1b8e5006152da57313bd0.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;zp130k&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="782">
+    <screenshots>
+      <screenshot image="9f6799f95ef1b8e5006152da57313bd0.png"/>
+    </screenshots>
+    <description>Signin</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="9438">
+    <screenshots>
+      <screenshot image="0be37540e9353e79f13881de3b46a103.png"/>
+      <screenshot image="236c2fe8dc323b60fc3a5f855afa7ec1.png"/>
+    </screenshots>
+    <description>Open profile edit page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1997">
+    <screenshots>
+      <screenshot image="5dfc5ad56b09b1e42d657e0ce79ddb18.png"/>
+    </screenshots>
+    <description>Type city: &lt;span class=&apos;step-parameter&apos;&gt;Minsk&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2650">
+    <screenshots>
+      <screenshot image="6a31933fc7cc146e028885afca283691.png"/>
+      <screenshot image="4de582301132b33cd5d0404c8c62bb01.png"/>
+    </screenshots>
+    <description>Save</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="834">
+    <screenshots>
+      <screenshot image="c036813e9326d2bca0f86de1e784b26c.png"/>
+      <screenshot image="aef9d55989d3e3ebbfdb3394ee7891bc.png"/>
+    </screenshots>
+    <description>Assert that alert is visible</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="time.sc.features.uitests.EditUserProfileTest" skipped="0" tests="2" time="47.94" timestamp="2016-05-135 05:34:19"><testcase classname="time.sc.features.uitests.EditUserProfileTest" name="Edit lastname"/><testcase classname="time.sc.features.uitests.EditUserProfileTest" name="Edit city"/></testsuite>

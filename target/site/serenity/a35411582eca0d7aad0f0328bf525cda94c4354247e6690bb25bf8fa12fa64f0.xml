@@ -1,0 +1,23 @@
+<acceptance-test-run title="Edit name" name="edit_name" steps="4" successful="0" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="46219" timestamp="2016-05-14T15:39:09.610+07:00">
+  <user-story id="time.sc.features.search.EditUserProfileStory" name="Edit user profile story" path="time.sc.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Edit user profile story" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="46140">
+    <description>Open signin page</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[time.sc.steps.serenity.EndUserSteps.open_signin_page(EndUserSteps.java:33), time.sc.features.search.EditUserProfileStory.edit_name(EditUserProfileStory.java:27), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Enter email: &lt;span class=&apos;step-parameter&apos;&gt;keyword&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;keyword&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Signin</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,33 @@
+<acceptance-test-run title="Edit name" name="edit_name" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12058" timestamp="2016-05-14T15:58:24.452+07:00">
+  <user-story id="time.sc.features.search.EditUserProfileTest" name="Edit user profile test" path="time.sc.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Edit user profile test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9057">
+    <screenshots>
+      <screenshot image="41e011ef875f361e2b16e80568e78375.png"/>
+    </screenshots>
+    <description>Open signin page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1666">
+    <screenshots>
+      <screenshot image="eaff5f1570d3f1b8cd2f92afd335e1f8.png"/>
+    </screenshots>
+    <description>Enter email: &lt;span class=&apos;step-parameter&apos;&gt;keyword&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="580">
+    <screenshots>
+      <screenshot image="fe8558b8f063a8e94299a62b45872d23.png"/>
+      <screenshot image="a548c2e2736ff9937659724f3995a59f.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;keyword&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="570">
+    <screenshots>
+      <screenshot image="66f3d0ca55cbfc04c96453a64f657c7a.png"/>
+    </screenshots>
+    <description>Signin</description>
+  </test-step>
+</acceptance-test-run>
